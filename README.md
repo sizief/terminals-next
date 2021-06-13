@@ -1,6 +1,11 @@
 
 ## TERMINALS
 
+## TODO
+- Typescript
+- Footer and header once
+- Airpot page
+
 ## TECH
 - TYPESCRIPT
 - NEXTJS
