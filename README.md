@@ -2,9 +2,15 @@
 ## TERMINALS
 
 ## TODO
-- Typescript
-- Footer and header once
-- Airpot page
+- [x] Typescript
+- [x]Footer and header once
+- [] Airpot page
+- [] list page
+- [] domain
+- [] Vercel
+- [] login
+- [] profile
+- [] set date
 
 ## TECH
 - TYPESCRIPT
@@ -12,10 +18,6 @@
 - SWR
 - REACT
 - NODE/EXPRESS
-- COGNITO
-- MOBX/REST
-- TAILWIND
-- DOCKER
 - POSTGRESS
 
 ## Dependency

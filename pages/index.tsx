@@ -2,12 +2,14 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import Layout from '../components/common/firstPageLayout'
 
 export default function Home() {
+  const title = (): string => 'Terminal App'
   return (
     <div className={styles.container}>
       <Head>
-        <title>Terminals</title>
+        <title>{title()}</title>
         <meta name="description" content="find a companion to spend time on airport terminal" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -33,3 +35,5 @@ export default function Home() {
     </div>
   )
 }
+
+Home.layout = (page) => <Layout>{page}</Layout>
